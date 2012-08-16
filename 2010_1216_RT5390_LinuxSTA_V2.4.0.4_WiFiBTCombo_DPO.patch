@@ -1,0 +1,12 @@
+diff -urN 2010_1216_RT5390_LinuxSTA_V2.4.0.4_WiFiBTCombo_DPO.orig/os/linux/config.mk 2010_1216_RT5390_LinuxSTA_V2.4.0.4_WiFiBTCombo_DPO/os/linux/config.mk
+--- 2010_1216_RT5390_LinuxSTA_V2.4.0.4_WiFiBTCombo_DPO.orig/os/linux/config.mk	2010-12-08 19:17:12.000000000 +0900
++++ 2010_1216_RT5390_LinuxSTA_V2.4.0.4_WiFiBTCombo_DPO/os/linux/config.mk	2012-08-16 19:08:27.896703800 +0900
+@@ -92,7 +92,7 @@
+ 
+ 
+ #Support Antenna Diversity
+-HAS_ANTENNA_DIVERSITY_SUPPORT=n
++HAS_ANTENNA_DIVERSITY_SUPPORT=y
+ 
+ #Client support WDS function
+ HAS_CLIENT_WDS_SUPPORT=n
